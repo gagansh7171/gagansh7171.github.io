@@ -25,6 +25,7 @@ const useStyles = (theme) => (
         height: "430px",
         borderRadius:"5px",
         backgroundColor : theme.palette.chat.main,
+        zIndex : 1200
         
     },
     desc:{
