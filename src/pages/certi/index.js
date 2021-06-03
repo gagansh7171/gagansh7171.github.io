@@ -57,6 +57,9 @@ class Certi extends React.Component{
                         <Grid item xs={10}>
                             <Grid className={classes.widthManage}  container spacing={2} >
                             <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
+                                    <div className={classes.hover}><img src="./assets/certi/coursera1.png" className ={classes.image}/></div>
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
                                     <div className={classes.hover}><img src="./assets/certi/somt.jpeg" className ={classes.image}/></div>
                             </Grid>
                             <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
