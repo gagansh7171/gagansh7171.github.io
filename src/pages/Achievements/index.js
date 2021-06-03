@@ -43,11 +43,6 @@ class Achievements extends React.Component{
                                     Among 6215 participants worldwide. Participated as a member of team SecretSix.
                                 </li>
                                 <li>
-                                    <b>Codechef</b><br/>
-                                    <b><a href="https://www.codechef.com/users/gagan_sharma" target="_blank"><u>gagan_sharma</u></a> 4★</b><br/>
-                                    Scored Global Rank 9 and 64 in Long Contests
-                                </li>
-                                <li>
                                     <strong>JEE Advanced 2019</strong><br/>
                                     <strong>All India Rank - 303</strong><br/>
                                     Ranked in top 0.18 percentile in the JEE Advanced.
