@@ -7,6 +7,7 @@ import { Box , Button, Typography} from "@material-ui/core";
 import Input from '@material-ui/core/Input';
 import TextField from '@material-ui/core/TextField';
 import axios from 'axios';
+import SendIcon from '@material-ui/icons/Send';
 
 const useStyles = (theme) => (
     {
@@ -114,7 +115,7 @@ class Chat extends React.Component{
                             <Input placeholder="Your Name" error={this.state.wrongname} onChange={(e) => this.changeName(e.target.value)} value={this.state.user_name} name="uer_name" style={{marginLeft:"10px", marginTop:"3px", width:"32ch"}}/>
                             <Input placeholder="Your Email" error={this.state.wrongmail} onChange={(e) => this.changeMail(e.target.value)} value={this.state.user_email} name="uer_email" style={{marginLeft:"10px", marginTop:"3px", width:"32ch"}}/>
                             <TextField label="Your Message" error={this.state.wrongmsg} onChange={(e) => this.changeMsg(e.target.value)} value={this.state.message} name="message" id="outlined-multiline-static" color="secondary" multiline rows={6} variant="outlined" style={{marginLeft:"10px", marginTop:"6px", width : 284}}/>
-                            <Button fullWidth onClick={this.onSubmit}>⮞</Button>
+                            <Button fullWidth onClick={this.onSubmit}><SendIcon/></Button>
                             </form>
                         }
                         {this.state.sent && 
