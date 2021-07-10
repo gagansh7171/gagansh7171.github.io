@@ -160,6 +160,17 @@ class Skills extends React.Component{
                                     </Box>         
                                 </Box>                 
                             </Grid>
+                            <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
+                                <Box className={classes.cardWidth}>
+                                    <Box className={classes.cardHead}>
+                                        <img src="./assets/images/dart.svg" height={24}/>
+                                        <span style={{marginLeft:"10px"}}>Dart</span>
+                                    </Box>  
+                                    <Box className={classes.cardBody} >
+                                    Speciality - Cross Platform mobile app development using Flutter SDK.
+                                    </Box>         
+                                </Box>                 
+                            </Grid>
                             <Grid item xs={12} md={6} lg={4}  className={classes.alignCenter}>
                                 <Box className={classes.cardWidth}>
                                     <Box className={classes.cardHead}>
@@ -185,6 +196,9 @@ class Skills extends React.Component{
                         <Grid item xs={1}></Grid>
                         <Grid item xs={11}>
                             <Grid className={classes.widthManage}  container spacing={2} >
+                            <Grid item>
+                                    <ToolCard image="./assets/images/flutter.png" text="Flutter"/>            
+                                </Grid>
                                 <Grid item>
                                     <ToolCard image="./assets/images/docker.png" text="Docker"/>            
                                 </Grid>
