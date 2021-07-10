@@ -67,7 +67,7 @@ class ProjectCard extends React.Component{
                     </Box>
                     <Box className={classes.role}><span>{this.props.role}</span><span className={classes.rightSpan}></span><span>{this.props.date}</span></Box>  
                     <Box className={classes.cardBody} >
-                        {this.props.desc}<br/>
+                        <div dangerouslySetInnerHTML={{__html: this.props.desc}} />
                         <div style={{ position:"absolute", bottom:"5px", right:"15px"}}>
                             <a href={this.props.url} target="_blank"><Button variant="outlined" color="secondary">
                                 Details

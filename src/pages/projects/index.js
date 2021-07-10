@@ -39,8 +39,10 @@ const useStyles = (theme) => (
         fontSize : "16px",
         fontWeight : 400,
         fontFamily : "arial",
-        minHeight : "250px",
+        minHeight : "fit-content",
         marginTop : "1px",
+        display: "flex",
+        flexDirection: "column",
         //border : "1px solid black"   
     },
     cardWidth:{
@@ -130,6 +132,14 @@ let projects = [
         url : "https://gagansh7171.github.io/CSN101ASSIGN/",
         desc : "A HTML-CSS based website as a submission for a course assignment. My early attempts at practicing frontend development and making a resume website."
     },
+    {
+        name : "People Search",
+        image : "./assets/images/people_search.svg",
+        role : "Full-Stack Developer",
+        date : "June 2021",
+        url : "https://github.com/IMGIITRoorkee/omniport-frontend-people_search/",
+        desc : "An app to search people at IITR based on their details and interests.<br/>Tech Stack - ReactJS, Semantic UI, Django<br/>"
+    },
 
 ]
 class Projects extends React.Component{
@@ -151,25 +161,29 @@ class Projects extends React.Component{
                         <Grid item xs={10}>
                             <Grid className={classes.widthManage}  container spacing={2} >
                             <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
+                                <ProjectCard {...projects[8]}/>                 
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
                                 <Box className={classes.cardWidth}>
                                     <Box className={classes.cardHead}>
                                         <img src="./assets/images/op_logo.png" height={24}/>
                                         <span style={{marginLeft:"10px"}}>Omniport-Setup-CLI</span>
                                     </Box>
                                     <Box className={classes.role}><span>Developer</span><span className={classes.rightSpan}></span><span>December 2020</span></Box>  
-                                        <Box className={classes.cardBody} >
-                                        A CLI to setup Omniport and its components on your local system. Installing Dockerized setup of Omniport
+                                        <div className={classes.cardBody} >
+                                        <div>A CLI to setup Omniport and its components on your local system. Installing Dockerized setup of Omniport
                                         needs referrig to the docs a lot many times and contacting the developers for unresolved issues. But the cli
-                                        does all the job for you. Currently published as an npm package.<br/>
-                                        <span style={{width: "140px", alignItems: "flex-end",display: "flex",float: "right",justifyContent: "space-around"}}>
+                                        does all the job for you. Currently published as an npm package.
+                                        </div>
+                                        <div style={{alignSelf: "flex-end",width: "140px", alignItems: "flex-end",display: "flex",float: "right",justifyContent: "space-around"}}>
                                             <a href="https://www.npmjs.com/package/@imgiitr/omniport-setup-cli" target="_blank">
                                                 <img src="./assets/images/npm.png" height={24}/>
                                             </a>
                                             <a href="https://github.com/gagansh7171/omniport-setup-cli" target="_blank"><Button variant="outlined" color="secondary">
                                                 Details
                                             </Button></a>
-                                        </span>
-                                    </Box>         
+                                        </div>
+                                    </div>         
                                 </Box>
                                 
                             </Grid>
