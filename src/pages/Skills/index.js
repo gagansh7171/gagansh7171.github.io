@@ -144,7 +144,7 @@ class Skills extends React.Component{
                                         <span style={{marginLeft:"10px"}}>HTML-CSS</span>
                                     </Box>  
                                     <Box className={classes.cardBody} >
-                                    Speciality - Experienced in making HTML Websites and css for styling.
+                                    Speciality - Experienced in making HTML Websites and css for styling. Experienced in producing mobile-friendly ui.
                                     </Box>         
                                 </Box>                 
                             </Grid>
