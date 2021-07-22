@@ -140,6 +140,22 @@ let projects = [
         url : "https://github.com/IMGIITRoorkee/omniport-frontend-people_search/",
         desc : "An app to search people at IITR based on their details and interests.<br/>Tech Stack - ReactJS, Semantic UI, Django<br/>"
     },
+    {
+        name : "BruteForce",
+        image : "./assets/images/bruteForce.svg",
+        role : "Full-Stack Developer",
+        date : "September 2020",
+        url : "https://github.com/BruteForce-CP/BruteForce",
+        desc : "Worked in a team of 5 developers under guidance of Prof. Sandeep Kumar.<br/>The project involved developing a platform for competitive programmers' discussions, blogs and Q&A."
+    },
+    {
+        name : "RISC Processor",
+        image : "./assets/images/risc.png",
+        role : "Logisim Programmer",
+        date : "November 2020",
+        url : "https://github.com/gagansh7171/RISC-Processor-Simulator",
+        desc : "Worked in a team of 6 developers under the guidance of Prof Peddoju Sateesh Kumar.<br/>We have designed a 32-Bit RISC inspired Processor Simulator with Von Neumann Architecture using Logisim and an assembler in python."
+    },
 
 ]
 class Projects extends React.Component{
@@ -188,7 +204,13 @@ class Projects extends React.Component{
                                 
                             </Grid>
                             <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
+                                <ProjectCard {...projects[9]}/>                 
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
                                 <ProjectCard {...projects[0]}/>                 
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
+                                <ProjectCard {...projects[10]}/>                 
                             </Grid>
                             <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
                                 <ProjectCard {...projects[1]}/>                 
@@ -207,9 +229,6 @@ class Projects extends React.Component{
                             </Grid>
                             <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
                                 <ProjectCard {...projects[6]}/>                 
-                            </Grid>
-                            <Grid item xs={12} md={6} lg={4} className={classes.alignCenter}>
-                                <ProjectCard {...projects[7]}/>                 
                             </Grid>
                         </Grid>
                         </Grid>
