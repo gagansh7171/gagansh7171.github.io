@@ -79,7 +79,7 @@ class Achievements extends React.Component{
                                 </li>
                                 <li>
                                     <b><a href="http://www.edudel.nic.in/welcome_folder/ntsejsts.htm" target="_blank"><u>JSTSE</u></a> 2016</b><br/>
-                                    <b>Delhi State Rank 104</b><br/>
+                                    <b>Delhi State Rank 24</b><br/>
                                     Among 22082 students conducted by Directorate of Education Delhi. 
                                 </li>
                                 
