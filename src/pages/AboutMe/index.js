@@ -108,7 +108,7 @@ const useStyles = (theme) => (
 const onDownload = ()=> {
 
     var a = document.createElement("a");
-    a.href = "./assets/Resume.pdf";
+    a.href = "./assets/19114032_Default Resume_2021-08-05_20_34_11.pdf";
     a.setAttribute("target", "_blank");
     a.click();
   }
