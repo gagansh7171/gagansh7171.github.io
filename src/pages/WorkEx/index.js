@@ -100,7 +100,7 @@ class WorkEx extends React.Component{
                                                 <img className={classes.images} src="/assets/workex/airblack.jfif"/>
                                                 <Box className={classes.nameBox} >
                                                     <Typography className={classes.name}>Airblack</Typography>
-                                                    <Typography className={classes.duration}>SDE Intern</Typography>
+                                                    <Typography className={classes.duration}>Engineering Intern</Typography>
                                                     <Typography className={classes.duration}>Mar 2021 - May 2021 · 3 months</Typography>
                                                 </Box>
                                             </Box>
@@ -125,6 +125,46 @@ class WorkEx extends React.Component{
                                             </li>
                                             <li>
                                                 Enhancement and addition of Website features
+                                            </li>
+                                        </ul>
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                                <Grid item xs={12} >
+                                    <Grid>
+                                        <Grid item xs={12}>
+                                            <Box className={classes.flex}>
+                                                <img className={classes.images} src="/assets/workex/NewtonSchool.png"/>
+                                                <Box className={classes.nameBox} >
+                                                    <Typography className={classes.name}>Newton School</Typography>
+                                                    <Typography className={classes.duration}>Tech Intern</Typography>
+                                                    <Typography className={classes.duration}>Jun 2021 - Aug 2021 · 2 months</Typography>
+                                                </Box>
+                                            </Box>
+                                        </Grid>
+                                        <Grid item xs={12} className={classes.desc}>
+                                        Worked in a professional environment to develop and improve features of Newton's website and mobile app.<br/>
+                                        Skills I acquired during the internship: React Native, Firestore <br/>
+                                        Tech Stack I worked on : React JS, Redux, Redux-Saga, Bootstrap<br/>
+                                        Projects I worked on :
+                                        <ul>
+                                            <li>
+                                                Making the website more mobile responsive.
+                                            </li>
+                                            <li>
+                                                Webcam integration in test playgrounds.
+                                            </li>
+                                            <li>
+                                                Improving Newton Chat.
+                                            </li>
+                                            <li>
+                                                Verified 300 questions for Newton assignments and tests on topics of JS, React and HTML
+                                            </li>
+                                            <li>
+                                                Improving UI of feedback forms
+                                            </li>
+                                            <li>
+                                                Documenting feature additions in Notion docs.
                                             </li>
                                         </ul>
                                         </Grid>
