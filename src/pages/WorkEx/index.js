@@ -83,7 +83,7 @@ class WorkEx extends React.Component{
                                                 <Box className={classes.nameBox} >
                                                     <Typography className={classes.name}>Information Management Group, IIT Roorkee</Typography>
                                                     <Typography className={classes.duration}>Full Stack Developer</Typography>
-                                                    <Typography className={classes.duration}>Jan 2020 - Present</Typography>
+                                                    <Typography className={classes.duration}>Jan 2020 - Dec 2021</Typography>
                                                 </Box>
                                             </Box>
                                         </Grid>
@@ -167,6 +167,23 @@ class WorkEx extends React.Component{
                                                 Documenting feature additions in Notion docs.
                                             </li>
                                         </ul>
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                                <Grid item xs={12} >
+                                    <Grid>
+                                        <Grid item xs={12}>
+                                            <Box className={classes.flex}>
+                                                <img className={classes.images} src="/assets/workex/quadeye.jpg"/>
+                                                <Box className={classes.nameBox} >
+                                                    <Typography className={classes.name}>Quadeye</Typography>
+                                                    <Typography className={classes.duration}>Systems Intern</Typography>
+                                                    <Typography className={classes.duration}>May 2022 - Jul 2022 · 2 months</Typography>
+                                                </Box>
+                                            </Box>
+                                        </Grid>
+                                        <Grid item xs={12} className={classes.desc}>
+                                        Worked in a professional environment as a Systems Engineering Intern.
                                         </Grid>
                                     </Grid>
                                 </Grid>
