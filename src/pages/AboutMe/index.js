@@ -144,8 +144,11 @@ class AboutMe extends React.Component{
                 You can find me at :<br/><br/>
                 <div className={clsx(classes.logo,classes.wrap)}>
                 <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://www.codechef.com/users/gagan_sharma" target="_blank"><img src="./assets/images/codechef.jpg" height={50}/></a></span>
+                <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://leetcode.com/gagansh7171/" target="_blank"><img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" height={50}/></a></span>
+                <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://atcoder.jp/users/gagan_sharma" target="_blank"><img src="https://img.atcoder.jp/assets/logo.png" height={50}/></a></span>
+                <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://codeforces.com.cn/profile/gagan_sharma" target="_blank"><img src="./assets/images/codeforces.png" height={50}/></a></span>
                 <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://github.com/gagansh7171" target="_blank"><img src="./assets/images/github.png" height={50}/></a></span>
-                <span style={{minWidth:"fit-content", padding:"5px"}}><a href="mailto:gagansh7171@gmail.com" target="_blank"><img src="./assets/images/gmail.png" height={50}/></a></span>
+                <span style={{minWidth:"fit-content", padding:"5px"}}><a href="mailto:gagansh7171@gmail.com" target="_blank"><img src="./assets/images/gmail.png" height={40} style={{marginTop:"5px"}}/></a></span>
                 <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://www.linkedin.com/in/gagan-sharma-206303/" target="_blank"><img src="./assets/images/linkedin.png" height={50}/></a></span>
                 <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://www.quora.com/profile/Gagan-Sharma-63" target="_blank"><img src="./assets/images/quora.png" height={50}/></a></span>
                 <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://www.facebook.com/profile.php?id=100039701595436" target="_blank"><img src="./assets/images/facebook.png" height={50}/></a></span>
