@@ -140,7 +140,8 @@ class AboutMe extends React.Component{
                 and making friends.<br/><br/>
                 Full-stack developer, skilled in JavaScript and Python. Experienced in React and Django for
                  building web applications. Proficient and easy to go in a professional environment. Compatible
-                  in building large, scalable, and maintainable software applications.<br/><br/>
+                  in building large, scalable, and maintainable software applications.<br/>
+                  Looking for a full time role as HFT Systems Developer.<br/><br/>
                 You can find me at :<br/><br/>
                 <div className={clsx(classes.logo,classes.wrap)}>
                 <span style={{minWidth:"fit-content", padding:"5px"}}><a href="https://www.codechef.com/users/gagan_sharma" target="_blank"><img src="./assets/images/codechef.jpg" height={50}/></a></span>
